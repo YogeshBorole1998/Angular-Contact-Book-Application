@@ -24,8 +24,10 @@ This is a simple Angular application for managing contacts. It allows users to p
 3. Install dependencies: `npm install`
 
 ## Usage
-1. Start the development server: `ng serve`
-2. Open your browser and navigate to [http://localhost:4200](http://localhost:4200)
+1. Start the JSON Server : `json-server --watch src\data\db.json --port 8200`
+2. Open your browser and navigate to [http://localhost:8200/guests](http://localhost:8200/guests)
+3. Start the development server: `ng serve`
+4. Open your browser and navigate to [http://localhost:4200](http://localhost:4200)
 
 ## Contributing
 Contributions are welcome! Feel free to submit pull requests.
